@@ -18,13 +18,13 @@ ReactDOM.render(
   <BrowserRouter>
     <Routes>
         {/* Crisis Routing Block */}
-      <Route path='*' element={<ErrorPage />} />
+      
       <Route path='/' element={<App />} />
       <Route path='/services' element={<ServicesPage />} />
       <Route path='/investors' element={<InvestorsPage />} />
       <Route path='/about' element={<AboutPage />} />
       <Route path='/contact' element={<ContactPage />} />
-      
+      <Route path='*' element={<ErrorPage />} />
 
 
 
