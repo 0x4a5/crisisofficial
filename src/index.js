@@ -15,7 +15,7 @@ import ErrorPage from './routes/ErrorPage';
 
 
 ReactDOM.render(
-  <BrowserRouter>
+  <BrowserRouter basename={window.location.pathname || ''}>
     <Routes>
         {/* Crisis Routing Block */}
       
