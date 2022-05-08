@@ -18,7 +18,7 @@ ReactDOM.render(
   <BrowserRouter>
     <Routes>
         {/* Crisis Routing Block */}
-      <Route path='/' element={<App />} />
+      <Route path='*' element={<App />} />
       <Route path='/services' element={<ServicesPage />} />
       <Route path='/investors' element={<InvestorsPage />} />
       <Route path='/about' element={<AboutPage />} />
