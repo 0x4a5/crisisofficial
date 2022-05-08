@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/crisisofficial/static/css/main.bdfa50e7.css",
-    "main.js": "/crisisofficial/static/js/main.b18c92b5.js",
+    "main.js": "/crisisofficial/static/js/main.bb407e5a.js",
     "static/media/support.png": "/crisisofficial/static/media/support.1f9a10d260d1739a7124.png",
     "static/media/react.svg": "/crisisofficial/static/media/react.846756aa0311eb900f2c8e21d2bfa632.svg",
     "static/media/mobile.svg": "/crisisofficial/static/media/mobile.5c8ef5e6ceef0c6d131626dc5a31e92a.svg",
@@ -10,10 +10,10 @@
     "static/media/hosting.svg": "/crisisofficial/static/media/hosting.6effea57bc58d8028adfd543a5ec8148.svg",
     "index.html": "/crisisofficial/index.html",
     "main.bdfa50e7.css.map": "/crisisofficial/static/css/main.bdfa50e7.css.map",
-    "main.b18c92b5.js.map": "/crisisofficial/static/js/main.b18c92b5.js.map"
+    "main.bb407e5a.js.map": "/crisisofficial/static/js/main.bb407e5a.js.map"
   },
   "entrypoints": [
     "static/css/main.bdfa50e7.css",
-    "static/js/main.b18c92b5.js"
+    "static/js/main.bb407e5a.js"
   ]
 }
