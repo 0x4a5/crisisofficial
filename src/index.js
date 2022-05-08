@@ -13,11 +13,12 @@ import ContactPage from './routes/ContactPage';
 
 
 
+
 ReactDOM.render(
-  <BrowserRouter basename={window.location.pathname || ''}>
+  <BrowserRouter>
     <Routes>
         {/* Crisis Routing Block */}
-      <Route exact path='/' element={<App />} />
+      <Route path='/' element={<App />} />
       <Route path='/services' element={<ServicesPage />} />
       <Route path='/investors' element={<InvestorsPage />} />
       <Route path='/about' element={<AboutPage />} />
