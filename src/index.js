@@ -23,10 +23,6 @@ ReactDOM.render(
       <Route path='/investors' element={<InvestorsPage />} />
       <Route path='/about' element={<AboutPage />} />
       <Route path='/contact' element={<ContactPage />} />
-      
-
-
-
     </Routes>
   </BrowserRouter>,
   document.getElementById('root')
