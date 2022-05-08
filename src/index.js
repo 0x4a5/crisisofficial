@@ -18,13 +18,12 @@ ReactDOM.render(
   <BrowserRouter basename={window.location.pathname || ''}>
     <Routes>
         {/* Crisis Routing Block */}
-      
-      <Route exact path='/' element={<App />} />
+       <Route path='*' element={<ErrorPage />} />
       <Route path='/services' element={<ServicesPage />} />
       <Route path='/investors' element={<InvestorsPage />} />
       <Route path='/about' element={<AboutPage />} />
       <Route path='/contact' element={<ContactPage />} />
-      <Route path='*' element={<ErrorPage />} />
+      <Route exact path='/' element={<App />} />
 
 
 
