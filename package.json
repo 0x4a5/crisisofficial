@@ -2,7 +2,7 @@
   "name": "crisiscoins-react-tailwind",
   "homepage": "https://0x4a5.github.io/crisisofficial/",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^6.1.1",
     "@fortawesome/react-fontawesome": "^0.1.18",
