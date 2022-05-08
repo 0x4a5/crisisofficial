@@ -2,7 +2,7 @@
   "name": "crisisofficial",
   "homepage": "http://0x4a5.github.io/crisisofficial",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^6.1.1",
     "@fortawesome/react-fontawesome": "^0.1.18",
