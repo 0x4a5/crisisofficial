@@ -15,7 +15,7 @@ import ContactPage from './routes/ContactPage';
 
 
 ReactDOM.render(
-  <BrowserRouter>
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
     <Routes>
         {/* Crisis Routing Block */}
       <Route path='*' element={<App />} />
